@@ -14,6 +14,7 @@
 		C096E4E627BD245700D8BC98 /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C096E4E427BD245700D8BC98 /* TravelBook.xcdatamodeld */; };
 		C096E4E827BD245A00D8BC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E4E727BD245A00D8BC98 /* Assets.xcassets */; };
 		C096E4EB27BD245A00D8BC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E4E927BD245A00D8BC98 /* LaunchScreen.storyboard */; };
+		C096E4F427BFCE0A00D8BC98 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E4F327BFCE0A00D8BC98 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,7 @@
 		C096E4E527BD245700D8BC98 /* TravelBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelBook.xcdatamodel; sourceTree = "<group>"; };
 		C096E4E727BD245A00D8BC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C096E4EA27BD245A00D8BC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C096E4EC27BD245A00D8BC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C096E4F327BFCE0A00D8BC98 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +65,8 @@
 				C096E4E127BD245700D8BC98 /* Main.storyboard */,
 				C096E4E727BD245A00D8BC98 /* Assets.xcassets */,
 				C096E4E927BD245A00D8BC98 /* LaunchScreen.storyboard */,
-				C096E4EC27BD245A00D8BC98 /* Info.plist */,
 				C096E4E427BD245700D8BC98 /* TravelBook.xcdatamodeld */,
+				C096E4F327BFCE0A00D8BC98 /* ListViewController.swift */,
 			);
 			path = TravelBook;
 			sourceTree = "<group>";
@@ -144,6 +145,7 @@
 				C096E4E627BD245700D8BC98 /* TravelBook.xcdatamodeld in Sources */,
 				C096E4E027BD245700D8BC98 /* ViewController.swift in Sources */,
 				C096E4DC27BD245700D8BC98 /* AppDelegate.swift in Sources */,
+				C096E4F427BFCE0A00D8BC98 /* ListViewController.swift in Sources */,
 				C096E4DE27BD245700D8BC98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +298,7 @@
 				DEVELOPMENT_TEAM = CJT65P28V5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelBook/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please let me use this";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,6 +327,7 @@
 				DEVELOPMENT_TEAM = CJT65P28V5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelBook/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please let me use this";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
